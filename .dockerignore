@@ -1,0 +1,35 @@
+# Entornos y artefactos locales
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datos locales
+datos/
+*.db
+*.sqlite
+*.sqlite3
+
+# Pruebas
+tests/
+
+# Control de versiones
+.git/
+.gitignore
+.github/
+
+# Archivos de IDE/SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos Docker/temporales
+Dockerfile*
+compose*.yaml
+docker-compose*.yml
+*.log
